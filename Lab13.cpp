@@ -28,7 +28,7 @@ void fillVector(vector<int>& v) {
 void bubbleSort(vector<int>& v) {
     int size = v.size();
 
-    // Print original
+    // Print original 
     cout << "Original: ";
     for (int i = 0; i < size; i++) {
         cout << setw(3) << v[i];
@@ -59,9 +59,9 @@ void bubbleSort(vector<int>& v) {
 int main() 
 {
 
-    srand(time(0)); // seed random numbers
+    srand(time(0)); // random numbers
 
-    //Greeting 
+    //Greeting and explanation 
     cout << "This program demonstrates Bubble Sort.\n";
     cout << "It will generate 25 random numbers and sort them step by step.\n\n";
 
